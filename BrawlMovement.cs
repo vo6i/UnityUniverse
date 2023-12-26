@@ -16,7 +16,7 @@ public class BrawlMovement : MonoBehaviour
 
     bool Movement;
 
-    void Update()
+    void FixedUpdate()
     {
         if(joystick.Horizontal != 0 || if(joystick.Vertical != 0)
         {
